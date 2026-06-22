@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.conteudo {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.caixa-exemplo {
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #2c3e50;
+  border-radius: 5px;
+}
+
+code {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.quadro-css {
+  background-color: #2c3e50;
+  color: #00ff90;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: monospace;
+  margin: 15px 0;
+  white-space: pre-wrap;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.destaque {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.autores {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+.quadrado-demo {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 30px;
+}

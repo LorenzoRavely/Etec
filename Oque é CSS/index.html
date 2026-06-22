@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>O que é CSS?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>O que é CSS?</h1>
+    <p>Seletores, Propriedades e Valores</p>
+  </header>
+
+  <div class="conteudo">
+
+    <h2>1. O que é CSS</h2>
+    <p>
+      CSS significa <span class="destaque">Cascading Style Sheets</span>, ou seja,
+      "Folhas de Estilo em Cascata". É a linguagem usada para deixar as páginas
+      da internet bonitas. Enquanto o <code>HTML</code> é responsável pelo
+      conteúdo (textos, imagens, botões), o CSS é responsável pela
+      <span class="destaque">aparência</span> desse conteúdo: cores, tamanhos,
+      espaçamentos, fontes, e como os elementos ficam posicionados na tela.
+    </p>
+
+    <p>
+      Sem o CSS, uma página fica apenas com textos pretos em fundo branco,
+      sem nenhum estilo. O CSS é o que dá vida e identidade visual ao site.
+    </p>
+
+    <h2>2. Como o CSS é organizado</h2>
+    <p>
+      Toda regra de CSS segue basicamente esta estrutura:
+    </p>
+
+    <div class="quadro-css">
+seletor {
+  propriedade: valor;
+}
+    </div>
+
+    <p>Vamos entender cada parte:</p>
+
+    <h2>3. Seletor</h2>
+    <div class="caixa-exemplo">
+      <p>
+        O <span class="destaque">seletor</span> indica <strong>qual elemento</strong>
+        da página vai receber o estilo. Pode ser uma tag do HTML, uma classe ou um id.
+      </p>
+      <div class="quadro-css">
+p {
+  color: blue;
+}
+      </div>
+      <p>Nesse exemplo, <code>p</code> é o seletor e está dizendo: "todos os parágrafos da página vão ficar azuis".</p>
+    </div>
+
+    <h2>4. Propriedade</h2>
+    <div class="caixa-exemplo">
+      <p>
+        A <span class="destaque">propriedade</span> é a característica que queremos
+        alterar, por exemplo: cor, tamanho da fonte, largura, altura, espaçamento etc.
+      </p>
+      <div class="quadro-css">
+p {
+  color: blue;
+}
+      </div>
+      <p>Aqui, <code>color</code> é a propriedade. Estamos falando que queremos mudar a <strong>cor</strong>.</p>
+    </div>
+
+    <h2>5. Valor</h2>
+    <div class="caixa-exemplo">
+      <p>
+        O <span class="destaque">valor</span> é a informação que define como a
+        propriedade vai se comportar. É a resposta para a propriedade escolhida.
+      </p>
+      <div class="quadro-css">
+p {
+  color: blue;
+}
+      </div>
+      <p>Aqui, <code>blue</code> é o valor. Estamos dizendo qual cor queremos: azul.</p>
+    </div>
+
+    <h2>6. Exemplo na prática</h2>
+    <p>Olha esse quadrado azul abaixo. Ele foi estilizado só com CSS:</p>
+
+    <div class="quadrado-demo"></div>
+
+    <div class="quadro-css">
+.quadrado-demo {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 10px;
+}
+    </div>
+
+    <ul>
+      <li><code>.quadrado-demo</code> → seletor (classe)</li>
+      <li><code>width</code>, <code>height</code>, <code>background-color</code>, <code>border-radius</code> → propriedades</li>
+      <li><code>100px</code>, <code>#3498db</code>, <code>10px</code> → valores</li>
+    </ul>
+
+    <h2>7. Resumindo</h2>
+    <ul>
+      <li><strong>Seletor</strong>: quem vai ser estilizado</li>
+      <li><strong>Propriedade</strong>: o que vai mudar</li>
+      <li><strong>Valor</strong>: como vai mudar</li>
+    </ul>
+
+    <p class="autores">Trabalho realizado sozinho. Lorenzo 1°c3</p>
+
+  </div>
+
+  <footer>
+    <p>Trabalho de CSS — Seletores, Propriedades e Valores</p>
+  </footer>
+
+</body>
+</html>
