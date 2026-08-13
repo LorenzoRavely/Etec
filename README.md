@@ -18,6 +18,4 @@
 
 * 🌐 HTML
 * 🎨 CSS
-* ⚡ JavaScript
 * 🅱️ Bootstrap
-* 💻 Outras tecnologias aprendidas durante as aulas
