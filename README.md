@@ -1,7 +1,7 @@
 # 📚 Projetos Escolares — Lorenzo Raveli
 
 > 🎓 Repositório destinado aos projetos e atividades desenvolvidos durante o **1°C3**.
-<img src="./imagens/html5.png" width="100">
+<img src="./img/html5.png" width="100">
 ---
 
 ## 📂 Projetos
