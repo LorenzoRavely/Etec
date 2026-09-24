@@ -1,0 +1,66 @@
+/* Estilos do site - Computação Quântica (Grupo B) */
+:root {
+  --fundo: #eef2f5;
+  --tinta: #12233a;
+  --azul: #1f5fbf;
+  --branco: #ffffff;
+  --linha: #b9c4d0;
+}
+
+body {
+  background: var(--fundo);
+  color: var(--tinta);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3 { font-weight: 700; line-height: 1.2; }
+p { max-width: 68ch; }
+a { color: var(--azul); }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+/* topo e menu */
+.topo { background: var(--branco); border-bottom: 1px solid var(--linha); }
+.marca { font-weight: 700; font-size: 1.2rem; color: var(--tinta); text-decoration: none; }
+.menu a { color: var(--tinta); text-decoration: none; padding: .2rem 0; margin-left: 1.4rem; border-bottom: 3px solid transparent; }
+.menu a:hover, .menu a.ativo { border-bottom-color: var(--azul); }
+
+/* página inicial */
+.hero { padding: 4.5rem 0 4rem; }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); }
+.ket {
+  background: var(--tinta);
+  color: var(--branco);
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  text-align: center;
+}
+.ket small { display: block; margin-top: 1rem; font-family: "Segoe UI", sans-serif; font-style: normal; font-size: .9rem; opacity: .8; }
+
+.btn-quantico { background: var(--azul); color: #fff; border: 0; border-radius: 6px; padding: .7rem 1.8rem; font-weight: 600; }
+.btn-quantico:hover { background: var(--tinta); color: #fff; }
+
+/* caixas de conteúdo */
+.caixa { background: var(--branco); border: 1px solid var(--linha); border-left: 6px solid var(--azul); border-radius: 6px; padding: 1.4rem; height: 100%; }
+.caixa h3 { font-size: 1.25rem; }
+.caixa p:last-child { margin-bottom: 0; }
+
+.secao { padding: 2.5rem 0; }
+.secao h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+
+/* tabela e linha do tempo */
+.tabela-bits { background: var(--branco); }
+.tabela-bits th { background: var(--tinta); color: #fff; }
+.linha-tempo { list-style: none; padding-left: 0; border-left: 3px solid var(--tinta); margin-left: .5rem; }
+.linha-tempo li { padding: 0 0 1.2rem 1.4rem; }
+.linha-tempo strong { color: var(--azul); }
+
+/* detalhes (abre e fecha sem JavaScript) */
+details { background: var(--branco); border: 1px solid var(--linha); border-radius: 6px; padding: .9rem 1.2rem; margin-bottom: .8rem; }
+summary { font-weight: 700; cursor: pointer; }
+details[open] summary { margin-bottom: .5rem; color: var(--azul); }
+
+.rodape { background: var(--tinta); color: #fff; padding: 1.6rem 0; margin-top: 3rem; font-size: .95rem; }
