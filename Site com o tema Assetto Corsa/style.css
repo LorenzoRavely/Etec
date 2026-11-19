@@ -1,0 +1,105 @@
+/* CORES: mude aqui e o site inteiro muda */
+:root {
+  --asfalto: #1e1f21;
+  --cinza-escuro: #2d2f32;
+  --cinza-claro: #e9eaec;
+  --branco: #ffffff;
+  --vermelho: #d0202b;
+  --texto: #2a2b2d;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: var(--texto);
+  background: var(--branco);
+  line-height: 1.7;
+  scroll-behavior: smooth;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Títulos */
+h1, h2, h3, .navbar-brand {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 { font-size: 2.4rem; margin-bottom: 1.2rem; }
+h3 { font-size: 1.6rem; }
+
+/* Menu */
+.barra {
+  background: var(--asfalto);
+  border-bottom: 4px solid var(--vermelho);
+}
+.navbar-brand { font-size: 1.6rem; }
+.nav-link:hover { color: var(--branco) !important; }
+
+/* Topo da página */
+.topo {
+  background: var(--asfalto);
+  color: var(--branco);
+  padding: 6rem 0;
+}
+.topo h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); margin-bottom: 1.5rem; }
+.topo .lead { color: #c9cacd; margin-bottom: 2rem; max-width: 36rem; }
+
+/* Botão */
+.btn-vermelho {
+  background: var(--vermelho);
+  color: var(--branco);
+  border-radius: 0;
+  border: 0;
+  font-weight: 500;
+}
+.btn-vermelho:hover { background: #a91820; color: var(--branco); }
+
+/* Seções */
+.secao { padding: 5rem 0; }
+.secao-escura { background: var(--cinza-claro); }
+
+/* Tabela */
+.tabela th { width: 40%; font-weight: 500; }
+
+/* Carros */
+.carro {
+  background: var(--branco);
+  border-left: 5px solid var(--vermelho);
+  padding: 1.5rem;
+  height: 100%;
+}
+.carro p { margin-bottom: 0; }
+
+/* Pistas */
+.lista-pistas .list-group-item { padding: 1rem 0; background: transparent; }
+
+/* Dicas */
+.dicas { padding-left: 1.2rem; }
+.dicas li { padding: 0.4rem 0; }
+
+/* Rodapé */
+.rodape {
+  background: var(--asfalto);
+  color: #a9aaad;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+/* Tabela com título */
+.tabela thead th { border-bottom: 2px solid var(--vermelho); font-weight: 600; }
+
+/* Sanfona (modos de jogo) */
+.accordion { --bs-accordion-border-radius: 0; --bs-accordion-inner-border-radius: 0; --bs-accordion-active-bg: var(--branco); --bs-accordion-active-color: var(--texto); --bs-accordion-btn-focus-box-shadow: none; }
+.accordion-item { border-left: 5px solid var(--vermelho); }
+.accordion-button { font-weight: 600; }
+
+/* Glossário */
+.glossario dt { font-weight: 600; margin-top: 1rem; }
+.glossario dd { margin-left: 0; padding-bottom: 1rem; border-bottom: 1px solid var(--cinza-claro); }
+
+/* Menu com muitos itens */
+.nav-link { font-size: 0.95rem; }
+
+/* Mantém os links do menu visíveis ao rolar até a seção */
+section { scroll-margin-top: 70px; }
