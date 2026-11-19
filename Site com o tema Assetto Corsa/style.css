@@ -103,3 +103,38 @@ h3 { font-size: 1.6rem; }
 
 /* Mantém os links do menu visíveis ao rolar até a seção */
 section { scroll-margin-top: 70px; }
+
+/* Botão só com contorno */
+.btn-contorno {
+  background: transparent;
+  color: var(--branco);
+  border: 2px solid var(--branco);
+  border-radius: 0;
+  font-weight: 500;
+}
+.btn-contorno:hover { background: var(--branco); color: var(--asfalto); }
+
+/* Galeria: se a imagem não existir, aparece o bloco escuro com o nome */
+.foto {
+  position: relative;
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  background: var(--cinza-escuro);
+  overflow: hidden;
+}
+.foto img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foto figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--asfalto);
+  color: var(--branco);
+  padding: 0.4rem 0.9rem;
+  font-weight: 500;
+  border-left: 5px solid var(--vermelho);
+}
