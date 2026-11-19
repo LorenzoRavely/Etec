@@ -1,4 +1,4 @@
-#Declaração de uso de Inteligência Artificial#
+Declaração de uso de Inteligência Artificial
 
 A Inteligência Artificial foi utilizada como ferramenta de apoio em algumas etapas do desenvolvimento deste projeto, principalmente nos momentos em que tive dúvidas sobre a estruturação do código HTML e CSS, como a utilização e o posicionamento de tags, por exemplo as divs.
 
